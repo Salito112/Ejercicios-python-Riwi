@@ -17,5 +17,18 @@ resultado = numflotante * 2
 print("El doble del número es:", resultado)
 
 # Función para verificar si una cadena puede convertirse a número
+texto=str(input("ingresa un texto para cambiar a numero"))
+variable_condicion=False
+try: 
+    valor=int(texto)
+    variable_condicion=True
+except ValueError:
+    variable_condicion=False
 
+if variable_condicion==True:
+    print("si se puede convertir a numero")
+
+else:
+    print("no se pudo convertir")
+    
 
