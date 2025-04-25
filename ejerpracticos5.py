@@ -20,4 +20,9 @@ else:
 
 
 #Dado un número, determina si está en el rango de 10 a 50 
+num=int(input("digite un numero de su eleccion"))
 
+if num >=10 and num <=50:
+    print("su numero esta en el rango correspondiente")
+else:
+    print("tu numero no esta dentro del rango")
